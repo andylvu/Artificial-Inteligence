@@ -224,6 +224,7 @@ print()
 print('these are visited states', visited_states)
 # print('these are the directions of the zero', directions)
 sorted(visited_states, key=itemgetter(2))
+print('these are visited states after sort using item getter', visited_states)
 print()
 # print('these are sorted visitied states', visited_states[0][2])
 # A = [[10, 8], [90, 2], [45, 6]]
